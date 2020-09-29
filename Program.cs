@@ -40,7 +40,8 @@ namespace H5Chocolate
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Något gick fel, har du lagt till choklad?");
                         Console.ResetColor();
-                    }
+                    }                
+                continue;
                 }
                 else if (input == "A")
                 {
