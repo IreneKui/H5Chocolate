@@ -13,6 +13,9 @@ namespace H5Chocolate
             chocolate.cacaoAmount = 4;
             chocolate.milkAmount = 12;
             chocolate.filling.Add("Hockeypulver");
+            chocolate.filling.Add("Havregryn");
+
+            Console.WriteLine($"Chokladkakan {chocolate.name} har så här mycket kakao: {chocolate.cacaoAmount}.");
         }
     }
 }
