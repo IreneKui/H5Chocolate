@@ -7,13 +7,15 @@ namespace H5Chocolate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to H5Chocolate!");
+            Console.Clear();
+            Console.WriteLine("---Welcome to H5Chocolate Console Ordering System!---");
+            Console.WriteLine("Välj en produkt: ");
 
             List<Chocolate> chocolateDatabase = GenerateTestData();
 
             foreach (Chocolate c in chocolateDatabase)
             {
-                Console.WriteLine($"Chokladkaka : {c.name}");
+                Console.WriteLine($"Chokladkaka: {c.name}");
             }
 
 
