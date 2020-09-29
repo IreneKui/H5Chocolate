@@ -7,6 +7,9 @@ namespace H5Chocolate
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to H5Chocolate!");
+
+            Chocolate chocolate = new Chocolate();
+            chocolate.name = "Hockepulverchokladkaka";
         }
     }
 }
