@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-class Chocolate
+public class Chocolate
 {
     public string name;
     public int cacaoAmount;
