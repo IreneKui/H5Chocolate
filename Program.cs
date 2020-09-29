@@ -10,6 +10,9 @@ namespace H5Chocolate
 
             Chocolate chocolate = new Chocolate();
             chocolate.name = "Hockepulverchokladkaka";
+            chocolate.cacaoAmount = 4;
+            chocolate.milkAmount = 12;
+            chocolate.filling.Add("Hockeypulver");
         }
     }
 }
