@@ -11,6 +11,11 @@ namespace H5Chocolate
 
             List<Chocolate> chocolateDatabase = GenerateTestData();
 
+            foreach (Chocolate c in chocolateDatabase)
+            {
+                Console.WriteLine($"Chokladkaka : {c.name}");
+            }
+
 
             //Console.WriteLine($"Chokladkakan {chocolate.name} har så här mycket kakao: {chocolate.cacaoAmount}.");
         }
@@ -18,7 +23,7 @@ namespace H5Chocolate
         {
             List<Chocolate> chocolateDatabase = new List<Chocolate>();
             Chocolate chocolate = new Chocolate();
-            chocolate.name = "Hockepulverchokladkaka";
+            chocolate.name = "Hockeypulverchokladkaka";
             chocolate.cacaoAmount = 4;
             chocolate.milkAmount = 12;
             chocolate.filling.Add("Hockeypulver");
