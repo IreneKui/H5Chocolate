@@ -1,0 +1,13 @@
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\bin\Debug\netcoreapp3.1\H5Chocolate.exe
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\bin\Debug\netcoreapp3.1\H5Chocolate.deps.json
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\bin\Debug\netcoreapp3.1\H5Chocolate.runtimeconfig.json
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\bin\Debug\netcoreapp3.1\H5Chocolate.runtimeconfig.dev.json
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\bin\Debug\netcoreapp3.1\H5Chocolate.dll
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\bin\Debug\netcoreapp3.1\H5Chocolate.pdb
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.csprojAssemblyReference.cache
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.AssemblyInfoInputs.cache
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.AssemblyInfo.cs
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.csproj.CoreCompileInputs.cache
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.dll
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.pdb
+C:\Users\iyb82\Documents\Sys.NET\OOP1\Lektion8\H5Chocolate\obj\Debug\netcoreapp3.1\H5Chocolate.genruntimeconfig.cache
