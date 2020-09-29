@@ -13,20 +13,26 @@ namespace H5Chocolate
 
             Console.Clear();
             Console.WriteLine("---Welcome to H5Chocolate Console Ordering System!---");
-            Console.WriteLine("Välj en produkt: ");
-
-            foreach (Chocolate c in chocolateDatabase)  //Loop
+            
+            while(true)
             {
-                Console.WriteLine($"[{chocolateDatabase.IndexOf(c)}]: {c.name}");
-            }
+                Console.WriteLine("Välj en produkt: ");
+    
+                foreach (Chocolate c in chocolateDatabase)  //Loop
+                {
+                    Console.WriteLine($"[{chocolateDatabase.IndexOf(c)}]: {c.name}");
+                }
 
-            Console.Write("Val: ");
-            int input = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Val: ");
+                int input = Convert.ToInt32(Console.ReadLine());
 
-            order.AddChocolate(chocolateDatabase[input]);
-            Console.WriteLine($"Du har beställt: {order}.");
+                order.AddChocolate(chocolateDatabase[input]);
+
+                Console.WriteLine($"Du har beställt: {order.GetOrderList()}.");
 
             //Console.WriteLine($"Chokladkakan {chocolate.name} har så här mycket kakao: {chocolate.cacaoAmount}.");
+
+            }
         }
         private static List<Chocolate> GenerateTestData()
         {

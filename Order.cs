@@ -12,7 +12,16 @@ public class Order
     public void AddChocolate(Chocolate chocolate)
     {
         items.Add(chocolate);
-        Console.Write("[Chocolate ordered]");
+        Console.WriteLine("[Chocolate ordered]");
+    }
+    public string GetOrderList()
+    {
+        string output = "";
+        foreach (Chocolate item in items)
+        {
+            output +=item.name + ", ";
+        }
+        return output;
     }
     // bool Confirm();
     // bool Cancel();
