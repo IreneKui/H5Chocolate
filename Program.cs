@@ -15,7 +15,7 @@ namespace H5Chocolate
 
             foreach (Chocolate c in chocolateDatabase)
             {
-                Console.WriteLine($"Chokladkaka: {c.name}");
+                Console.WriteLine($"[{chocolateDatabase.IndexOf(c)}]: {c.name}");
             }
 
 
