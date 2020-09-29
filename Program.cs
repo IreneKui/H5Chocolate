@@ -22,13 +22,35 @@ namespace H5Chocolate
                 {
                     Console.WriteLine($"[{chocolateDatabase.IndexOf(c)}]: {c.name}");
                 }
+                Console.WriteLine("[B] Lägg beställning");
+                Console.WriteLine("[A] Avsluta");
 
                 Console.Write("Val: ");
-                int input = Convert.ToInt32(Console.ReadLine());
+                string input = Console.ReadLine().ToUpper();
 
-                order.AddChocolate(chocolateDatabase[input]);
+                if(input == "B")
+                {
+                    bool orderSuccessful = order.Confirm();
+                    if(orderSuccessful)
+                    {
+                        Console.WriteLine("Beställning skickad! Tack!!");
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Något gick fel, har du lagt till choklad?");
+                        Console.ResetColor();
+                    }
+                }
+                else if (input == "A")
+                {
+                    Environment.Exit(0);
+                }
+                int index = Convert.ToInt32(input);
+                order.AddChocolate(chocolateDatabase[index]);
 
-                Console.WriteLine($"Du har beställt: {order.GetOrderList()}.");
+                Console.WriteLine($"Du har beställt: {order.GetOrderList()}");
+                Console.WriteLine("----------------------------------------");
 
             //Console.WriteLine($"Chokladkakan {chocolate.name} har så här mycket kakao: {chocolate.cacaoAmount}.");
 

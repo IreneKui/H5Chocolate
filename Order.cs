@@ -4,7 +4,7 @@ public class Order
 {
     public string message;
     // public Address adress;
-    // public bool confirmed;
+    public bool confirmed;
     // public Package package;
     private List<Chocolate> items = new List<Chocolate>();
     // public Donation donation;
@@ -23,6 +23,13 @@ public class Order
         }
         return output;
     }
-    // bool Confirm();
+    public bool Confirm()
+    {
+        if(items.Count > 0)
+        {
+            confirmed = true;
+        }
+        return confirmed;
+    }
     // bool Cancel();
 }
